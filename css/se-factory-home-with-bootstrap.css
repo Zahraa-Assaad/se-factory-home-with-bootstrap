@@ -1,0 +1,62 @@
+.hero {
+    background-image: url("../assets/background-image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: darken;
+    color: #fff;
+    position: relative;
+    margin-bottom: 20px;
+    height: 100%;
+}
+
+.p-buttom-bg{
+    padding-bottom: 300px;;
+}
+
+.btn-special{
+    background-color: #0d0;
+    color: #fff;
+}
+
+.green{
+    color: #0d0;
+}
+
+.grey{
+    background-color: #e6e6e6;
+}
+
+.black{
+    background-color: #000000;
+}
+
+.dash {
+    border-top: 3px solid #000;
+    width: 20px;
+    margin: 0 auto;
+}
+
+p{
+    font-size: 30px;;
+}
+
+.s-m-container{
+    margin-left: 5%; 
+    padding-top: 5%;
+}
+
+.divider {
+    width: 80%;
+    margin: 0 auto;
+    border-top: 1px solid rgba(0, 0, 0, 0.8);
+}
+
+
+/* Media Queries */
+
+@media only screen and (max-width: 800px) {
+    .mobile {
+        flex-direction: column;
+    }
+}
